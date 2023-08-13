@@ -1,96 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <title>Travel Quizz!</title>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz App</title>
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+    <h1 class="heading">Find Your Perfect Travel Destination</h1>
 
     <div class="quiz-container">
 
-        <h1>Discover Your Perfect Travel Destination!</h1>
-        <p>Answer a few questions to find out where you should go next.</p>
+        <div class="floating-window">
+
+            <h2>Question 1</h2>
+            <p>What type of climate do you prefer?</p>
+            <input type="radio" name="climate" value="warm">Warm<br>
+            <input type="radio" name="climate" value="cold">Cold<br>
+            <button id="nextBtn">Next</button> 
+
+        </div>
 
         <div class="floating-window">
 
-            <div class="question" id="question1">
-
-                <p>1. What type of weather do you prefer?</p>
-                <label><input type="radio" name="weather" value="beach">Beach</label>
-                <label><input type="radio" name="weather" value="mountain">Mountain</label>
-
-            </div>
-
+            <h2>Question 2</h2>
+            <p>What kind of activities do you like?</p>
+            <input type="radio" name="activities" value="beach">Beach<br>
+            <input type="radio" name="activities" value="adventure">Adventure<br>
             <button id="nextBtn">Next</button>
 
         </div>
 
         <div class="floating-window">
 
-            <div class="question" id="question2">
-
-                <p>2. How do you like to spend your free time?</p>
-                <label><input type="radio" name="activity" value="relax">Relaxing</label>
-                <label><input type="radio" name="activity" value="adventure">Adventure</label>
-
-            </div>
-
+            <h2>Question 3</h2>
+            <p>Which cuisine do you prefer?</p>
+            <input type="radio" name="cuisine" value="local">Local<br>
+            <input type="radio" name="cuisine" value="international">International<br>
             <button id="nextBtn">Next</button>
 
         </div>
 
-        <div class="floating-window">
+        <div class="result hidden" id="result">
 
-            <div class="question" id="question3">
-
-                <p>3. Which cuisine appeals to you the most?</p>
-                <label><input type="radio" name="cuisine" value="seafood">Seafood</label>
-                <label><input type="radio" name="cuisine" value="local">Local cuisine</label>
-
-            </div>
-
-            <button id="nextBtn">Next</button>
+            <h2>Your hand-picked destination is:</h2>
+            <p id="resultText"></p>
 
         </div>
-
-        <div class="floating-window">
-
-            <div class="question" id="question4">
-
-                <p>4. What type of activities do you enjoy?</p>
-                <label><input type="radio" name="activityType" value="cultural">Cultural experiences</label>
-                <label><input type="radio" name="activityType" value="outdoor">Outdoor adventures</label>
-
-            </div>
-
-            <button id="nextBtn">Next</button>
-
-        </div>
-
-        <div class="floating-window">
-
-            <div class="question" id="question5">
-
-                <p>5. How important is nightlife to you?</p>
-                <label><input type="radio" name="nightlife" value="important">Very important</label>
-                <label><input type="radio" name="nightlife" value="not-important">Not important</label>
-
-            </div>
-
-            <button id="submitBtn">Submit</button>
-
-        </div>
-
-        <div id="result" class="hidden"></div>
-
+        
     </div>
 
-    <script src="script.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
