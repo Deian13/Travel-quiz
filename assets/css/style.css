@@ -3,6 +3,7 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .heading {
@@ -17,6 +18,7 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    text-align: center;
 }
 
 .floating-window {
@@ -27,19 +29,23 @@ body {
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .floating-window h2 {
     font-size: 1.2rem;
     margin-top: 0;
+    text-align: center;
 }
 
 .floating-window p {
     margin: 10px 0;
+    text-align: center;
 }
 
 .floating-window input[type="radio"] {
     margin-right: 5px;
+    text-align: center;
 }
 
 #nextBtn {
@@ -49,6 +55,7 @@ body {
     padding: 5px 10px;
     border-radius: 3px;
     cursor: pointer;
+    text-align: center;
 }
 
 .result {
@@ -58,10 +65,33 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .hidden {
     display: none;
+    text-align: center;
+}
+/* media querries*/
+
+/* Small screens */
+@media screen and (max-width: 576px) {
+    .quiz-container {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .floating-window {
+        padding: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 }
 
-
+/* Medium screens */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .quiz-container {
+        max-width: 80%;
+        text-align: center;
+    }
+}
