@@ -12,101 +12,85 @@
 
 <body>
 
-    <div id="introduction">
+    <div class="quiz-container">
 
-    <h2>Quizz of Destinations</h2>
-    <p>Hard to decide where to travel next? See what my quizz suggests you!</p>
+        <h1>Discover Your Perfect Travel Destination!</h1>
+        <p>Answer a few questions to find out where you should go next.</p>
 
-    </div>
+        <div class="floating-window">
 
-    <div>
+            <div class="question" id="question1">
 
-        <h1></h1>
-        <p></p>
-
-        <div>
-
-            <div>
-
-                <p>1.</p>
-                 <label><input type="radio" name="" value=""></label>
-                <label><input type="radio" name="" value=""></label>
+                <p>1. What type of weather do you prefer?</p>
+                <label><input type="radio" name="weather" value="beach">Beach</label>
+                <label><input type="radio" name="weather" value="mountain">Mountain</label>
 
             </div>
 
-             <button id="nextBtn">Next</button>
+            <button id="nextBtn">Next</button>
 
         </div>
+
+        <div class="floating-window">
+
+            <div class="question" id="question2">
+
+                <p>2. How do you like to spend your free time?</p>
+                <label><input type="radio" name="activity" value="relax">Relaxing</label>
+                <label><input type="radio" name="activity" value="adventure">Adventure</label>
+
+            </div>
+
+            <button id="nextBtn">Next</button>
+
+        </div>
+
+        <div class="floating-window">
+
+            <div class="question" id="question3">
+
+                <p>3. Which cuisine appeals to you the most?</p>
+                <label><input type="radio" name="cuisine" value="seafood">Seafood</label>
+                <label><input type="radio" name="cuisine" value="local">Local cuisine</label>
+
+            </div>
+
+            <button id="nextBtn">Next</button>
+
+        </div>
+
+        <div class="floating-window">
+
+            <div class="question" id="question4">
+
+                <p>4. What type of activities do you enjoy?</p>
+                <label><input type="radio" name="activityType" value="cultural">Cultural experiences</label>
+                <label><input type="radio" name="activityType" value="outdoor">Outdoor adventures</label>
+
+            </div>
+
+            <button id="nextBtn">Next</button>
+
+        </div>
+
+        <div class="floating-window">
+
+            <div class="question" id="question5">
+
+                <p>5. How important is nightlife to you?</p>
+                <label><input type="radio" name="nightlife" value="important">Very important</label>
+                <label><input type="radio" name="nightlife" value="not-important">Not important</label>
+
+            </div>
+
+            <button id="submitBtn">Submit</button>
+
+        </div>
+
+        <div id="result" class="hidden"></div>
 
     </div>
 
-    <div> 
-
-        <div>
-
-            <p>2.</p>
-            <label><input type="radio" name="" value=""></label>
-            <label><input type="radio" name="" value=""></label>
-
-        </div>
-
-        <button id="nextBtn">Next</button>
-
-    </div>
-
-    <div>  
-
-        <div>
-
-            <p>3.</p>
-            <label><input type="radio" name="" value=""></label>
-            <label><input type="radio" name="" value=""></label>
-
-        </div>
-
-        <button id="nextBtn">Next</button>
-
-    </div>
-
-    <div>  
-
-        <div>
-
-            <p>4.</p>
-            <label><input type="radio" name="" value=""></label>
-            <label><input type="radio" name="" value=""></label>
-
-        </div>
-
-        <button id="nextBtn">Next</button>
-
-    </div>
-
-    <div>  
-
-        <div>
-
-            <p>5.</p>
-            <label><input type="radio" name="" value=""></label>
-            <label><input type="radio" name="" value=""></label>
-
-        </div>
-
-        <button id="submitBtn">Submit</button>
-
-        </div>
-
-        <div id="" class=">
-
-        </div>
-
-        <div id="" class="">
-
-        </div>
-
-    </div>    
-
-    
-    <script src="assets/js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
