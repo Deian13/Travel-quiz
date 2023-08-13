@@ -36,5 +36,6 @@ The live link can be found here - https://deian13.github.io/Travel-quiz/
 
 ### Content 
 
-- The text was written by myself 
+- The website text was written by myself
+- Read.me mainly modified from Code Institute template
 
