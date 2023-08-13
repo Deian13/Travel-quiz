@@ -15,4 +15,26 @@ After answering each question and pressing on the "next" button, the user is bei
     - No errors were found when passing through the official [(Jigsaw) validator]
 - JS
     - No errors were found when passing through the official [Jshint validator]
-     
+
+    ## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://deian13.github.io/Travel-quiz/
+
+
+    ## Credits 
+- Javascript code was inspired by the lessons from the Code Institute and by a variety of youtubers including "Greatstack" or "Codehal"
+- HTML and CSS code was inspired by the coding institute. 
+- Favicon is from the website "favicon.io"
+- Credits to Coding Institute for the Read.me template.
+
+### Content 
+
+- The text was written by myself 
+
